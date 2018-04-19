@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    font-family: "Space Mono", "monospace";
+    font-size: 16px;
+}
+
+.player-container1 {
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: white;
+}
+
+.player-name {
+    font-size: 4em;
+    font-style: italic;
+    }
+
+.player-score {
+    font-size: 4.5em;
+}
+
+.btn-style {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+}
+
+i.material-icons {
+    font-size: 4em;
+}
+
+.dice {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}
+
+.btn-hold {
+    position: absolute;
+    top: 73%;
+    left: 44%;
+    transform: translateX(-50%);
+    }
+
+    .player-container2 {
+        width: 600px;
+        height: 500px;
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        background-color: white;
+    }
